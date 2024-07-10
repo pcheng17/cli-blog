@@ -65,7 +65,7 @@ def print_menu(win, highlight, choices):
     curses.init_pair(1, curses.COLOR_GREEN, -1)
 
     win.clear()
-    arrow = "→"  # Arrow emoji
+    arrow = "→"
 
     x = 2
     y = 0
